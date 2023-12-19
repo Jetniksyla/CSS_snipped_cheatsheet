@@ -15,14 +15,14 @@ footer,
 /* Style for section headers (h2) */
 h2 {
   color: rgb(232, 103, 237);
-    border: 1px solid white;
-    padding: 5px;
-    border-radius: 10px;
-    position: absolute;
-    top: -10%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 90%;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 10px;
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 90%;
 }
 
 /* Styling for paragraphs (p) */
@@ -79,6 +79,19 @@ footer {
   margin-bottom: 20px;
 }
 
+
+
+@media screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+}
+
+
+
+/* This can be some options for the future project so I'm going to leave these as a coments for now */
 /* Responsive design for larger screens */
 /* @media screen and (max-width: 992px) {
   main {
@@ -99,13 +112,3 @@ footer {
     width: 50%;
   }
 }  */
-
-
-
-@media screen and (max-width: 767px) {
-  header {
-    flex-direction: column;
-    text-align: center;
-    padding: 20px;
-  }
-}
