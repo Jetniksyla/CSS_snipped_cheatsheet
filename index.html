@@ -1,0 +1,117 @@
+<!-- Document Declaration and Metadata -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Charset, Viewport, Stylesheet, and Title -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="./assets/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header>
+      <!-- Page Title and Description -->
+      <h1>CSS Snipped Cheatsheet</h1>
+      <p class="pheader">
+        Ever have trouble recalling the exact syntax for your favorite CSS code?
+        Give it a permanent home and add it to this page! Select any snippet
+        below, and it'll automatically select all the code for you to copy.
+      </p>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+      <!-- Flexbox Row Section -->
+      <section class="section">
+        <h2 class="box">Flexbox Row</h2>
+        <div class="ptag">Use these three properties to create a Flexbox row layout.</div>
+        <p class="p">
+          .row { display: flex; <br />
+          flex-direction: row; <br />
+          flex-wrap: wrap;<br />
+          }<br />
+        </p>
+      </section>
+
+      <!-- Flexbox Column Section -->
+      <section class="section">
+        <h2 class="box">Flexbox Column</h2>
+        <div class="ptag">Use this to create a Flexbox column layout.</div>
+        <p class="p">
+          .column { <br />
+          display: flex; <br />
+          flex-direction: column; <br />
+          }<br />
+        </p>
+      </section>
+
+      <!-- CSS Grid Layout Section -->
+      <section class="section">
+        <h2 class="box">CSS Grid Layout</h2>
+        <div class="ptag">Build a 12-column layout using CSS Grid.</div>
+        <p class="p">
+          .grid { <br />
+          display: grid; <br />
+          width: 100%; <br />
+          grid-template-columns: <br />
+          repeat(12, 1fr); <br />
+          }<br />
+        </p>
+      </section>
+
+      <!-- Linear Gradients Section -->
+      <section class="section">
+        <h2 class="box">Linear Gradients</h2>
+        <div class="ptag">
+          This will create a background linear gradient from top to bottom.
+        </div>
+        <p class="p">
+          .linear-gradient-background {<br />
+          background-image: linear-<br />
+          gradient(<br />
+          rgba (232, 102, 236, 0.3) 0%<br />
+          rgba (232, 102, 236, 0.3) 100%<br />
+          );<br />
+        }<br />
+      </section>
+
+      <!-- Box Transition Glow Section -->
+      <section class="section">
+        <h2 class="box">Box Transition Glow</h2>
+        <div class="ptag">Use transition and box shadows to glow on hover.</div>
+        <p class="p">
+          .code-card .code-header <br />
+          border-radius: 8px;<br />
+          transition: all 0.5s ease-in-<br />
+          out;<br />
+          .code-card:hover,<br />
+          .code-card:hover .card-header {<br />
+          box-shadow: inset 0px 0px 8px<br />
+          rgba(232, 103, 236, 1), 0 0 15px<br />
+          rgba(232, 103, 236, 1);<br />
+        }<br />
+      </section>
+
+      <!-- Overlay Card with Title Section -->
+      <section class="section">
+        <h2 class="box">Overlay Card with Title</h2>
+        <div class="ptag">
+          Use position properties and negative margins to raise elements
+          higher than their natural starting point.
+        </div>
+        <p class="p">
+          .card-header {<br />
+          position: relative;<br />
+          margin-top: -20px;<br />
+        }<br />
+      </section>
+    </main>
+    
+    <!-- Footer Section -->
+    <br />
+    <footer>
+      <strong><h3>Made ❤️ with Love and CSS</h3></strong>
+    </footer>
+  </body>
+</html>

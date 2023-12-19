@@ -1,0 +1,111 @@
+/* Apply box-sizing and set background color for all elements */
+* {
+  box-sizing: border-box;
+  background-color: rgb(51, 57, 64);
+}
+
+/* Set text color for specific elements */
+h1,
+footer,
+.ptag {
+  color: rgb(232, 103, 237);
+  height: 20%;
+}
+
+/* Style for section headers (h2) */
+h2 {
+  color: rgb(232, 103, 237);
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    position: absolute;
+    top: -10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+}
+
+/* Styling for paragraphs (p) */
+.p {
+  color: white;
+  background-color: rgb(130, 78, 138);
+  border-radius: 10px;
+  padding: 10px;
+  height: 75%;
+}
+
+/* Body styles */
+body {
+  font-family: 'Courier New', 'Monaco', 'Lucida Console', monospace;
+  margin: auto;
+}
+
+/* Style for the header paragraph (pheader) */
+.pheader {
+  margin-inline: 25%;
+  margin-block-end: 50px;
+}
+
+/* Header styles */
+header {
+  padding: 15px;
+  text-align: center;
+  color: #fff;
+}
+
+/* Main content layout styles */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px 15px;
+  flex-direction: row;
+  align-items: normal;
+  padding: 15px;
+}
+
+/* Style for individual sections */
+section {
+  flex: 1 0 32%;
+  padding: 25px;
+  border: 2px dotted white;
+  box-sizing: border-box;
+  position: relative;
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+/* Responsive design for larger screens */
+/* @media screen and (max-width: 992px) {
+  main {
+    width: 100%;
+  }
+} */
+
+/* Responsive design for medium-sized screens */
+/* @media screen and (max-width: 768px) {
+  main {
+    width: 75%;
+  }
+} */
+
+/* Responsive design for smaller screens */
+/* @media screen and (max-width: 576px) {
+  main {
+    width: 50%;
+  }
+}  */
+
+
+
+@media screen and (max-width: 767px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+}
