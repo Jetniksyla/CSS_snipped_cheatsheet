@@ -33,3 +33,8 @@ This project, "CSS Snipped Cheatsheet," is a simple webpage designed to showcase
 
 ## Layout and Positioning
 * Responsive design for various screen sizes using media queries.
+
+
+## Project Screenshot
+
+![Alt text](css_cheatcheet.png)
