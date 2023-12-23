@@ -9,20 +9,22 @@ h1,
 footer,
 .ptag {
   color: rgb(232, 103, 237);
-  height: 20%;
+  height: 22%;
+  margin-bottom: 10px;
 }
 
 /* Style for section headers (h2) */
 h2 {
   color: rgb(232, 103, 237);
   border: 1px solid white;
-  padding: 5px;
+  padding: 7px 15px;
   border-radius: 10px;
   position: absolute;
-  top: -10%;
+  top: -7%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 90%;
+  font-size: 20px;
 }
 
 /* Styling for paragraphs (p) */
@@ -30,7 +32,7 @@ h2 {
   color: white;
   background-color: rgb(130, 78, 138);
   border-radius: 10px;
-  padding: 10px;
+  padding: 20px 10px;
   height: 75%;
 }
 
@@ -42,8 +44,9 @@ body {
 
 /* Style for the header paragraph (pheader) */
 .pheader {
-  margin-inline: 25%;
-  margin-block-end: 50px;
+  margin: auto;
+  width: 50%;
+  padding: 20px;
 }
 
 /* Header styles */
@@ -66,7 +69,7 @@ main {
 /* Style for individual sections */
 section {
   flex: 1 0 32%;
-  padding: 25px;
+  padding: 25px 15px;
   border: 2px dotted white;
   box-sizing: border-box;
   position: relative;
@@ -83,32 +86,26 @@ footer {
 
 @media screen and (max-width: 767px) {
   header {
+    display: flex;
     flex-direction: column;
     text-align: center;
-    padding: 20px;
+    padding: 40px;
+    width: 100%;
+  }
+
+  .pheader {
+    width: 100%;
   }
 }
 
 
-
-/* This can be some options for the future project so I'm going to leave these as a coments for now */
-/* Responsive design for larger screens */
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 500px) {
   main {
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* Set display to block to make it a column */
+    margin: auto;
+    /* Optional: Center the column horizontally */
   }
-} */
-
-/* Responsive design for medium-sized screens */
-/* @media screen and (max-width: 768px) {
-  main {
-    width: 75%;
-  }
-} */
-
-/* Responsive design for smaller screens */
-/* @media screen and (max-width: 576px) {
-  main {
-    width: 50%;
-  }
-}  */
+}
